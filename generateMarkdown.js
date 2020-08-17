@@ -42,7 +42,7 @@ ${data.contributeRepo}
 
 To run tests run the following command:
 
-    ${data.license}
+    ${data.commandTest}
 
 ## Questions 
 
