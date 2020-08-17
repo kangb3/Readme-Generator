@@ -52,7 +52,7 @@ function promptUser(){
         {
             type: "input",
             message: "What does the user need to know about contributing to the repo?",
-            name: "constributeRepo"
+            name: "contributeRepo"
         }
     ]);
 }
@@ -70,17 +70,4 @@ promptUser()
         console.log(err);
       });
 
-// async function init(){
-//     promptUser()
-//     .then(function(data){
-//         const readMe = generateMarkdown(data);
 
-//         return writeFileAsync("gg.md", readMe);
-//     })
-//     .then(function() {
-//         console.log("Successfully wrote to readme");
-//       })
-//       .catch(function(err) {
-//         console.log(err);
-//       });
-// }

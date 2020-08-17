@@ -2,13 +2,17 @@ function generateMarkdown(data){
     return `
 # ${data.projectName}
 
+![License: None](https://img.shields.io/badge/License-${data.license}-brightgreen)
+
 ## Description
+
 
 ${data.description}
 
+
 ## License
 
-This project is licensed under the ${data.license} license.
+This project is licensed under the ${data.license} license.  
 
 ## Installation
 
@@ -20,6 +24,7 @@ To install necessary dependencies, run the following command:
 
 ${data.usageRepo}
 
+
 ## License
 
 This project is licensed under the ${data.license}
@@ -29,11 +34,14 @@ This project is licensed under the ${data.license}
 ${data.contributeRepo}
 
 ## Tests
+
+
 To run tests run the following command:
 
     ${data.license}
 
 ## Questions 
+
 
 If you have any questions about the repo, open an issue or contact me directly at ${data.useremail}. You can find more of my work at https://github.com/${data.githubUsername}.
 `
