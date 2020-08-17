@@ -1,7 +1,7 @@
 # Readme-Generator
 
 ## Objective
-The objective of this assignment is to create a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package. The following features are included in a generated README file:
+The objective of this assignment is to create a command-line application that dynamically generates a professional README.md from a user's input using NPM's Inquirer package. The following features are included in a generated README file:
 
 1. Title of user input project name
 2. Description of project
