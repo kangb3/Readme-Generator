@@ -61,10 +61,10 @@ promptUser()
     .then(function(data){
         const readMe = generateMarkdown(data);
 
-        return writeFileAsync("gg.md", readMe);
+        return writeFileAsync(data.projectName +" README.md", readMe);
     })
     .then(function() {
-        console.log("Successfully wrote to readme");
+        console.log("Readme created!");
       })
       .catch(function(err) {
         console.log(err);
