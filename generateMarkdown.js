@@ -9,10 +9,7 @@ function generateMarkdown(data){
 
 ${data.description}
 
-
-## License
-
-This project is licensed under the ${data.license} license.  
+ 
 
 ## Installation
 
