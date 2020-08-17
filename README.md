@@ -13,6 +13,12 @@ The objective of this assignment is to create a command-line application that dy
 8. Test information
 9. Question section
 
+## Installation 
+
+Dependencies must be installed in order to to use this CLI application. To install, used the following command:
+    
+    npm install
+
 ## Screenshots 
 
 ![image](https://user-images.githubusercontent.com/34286295/90373443-c4999500-e026-11ea-970d-572702ff8556.png)
