@@ -9,8 +9,15 @@ function generateMarkdown(data){
 
 ${data.description}
 
- 
+## Table of contents
 
+* [Installation](#Installation)
+* [Usage](#Usage)  
+* [License](#License)  
+* [Contributing](#Contributing)  
+* [Tests](#Tests)  
+* [Questions](#Questions)  
+  
 ## Installation
 
 To install necessary dependencies, run the following command:
