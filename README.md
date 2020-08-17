@@ -15,7 +15,7 @@ The objective of this assignment is to create a command-line application that dy
 
 ## Installation 
 
-Dependencies must be installed in order to to use this CLI application. To install, used the following command:
+Dependencies must be installed in order to to use this CLI application. To install, use the following command:
     
     npm install
 
